@@ -1,0 +1,29 @@
+/* containers/ResourceList.css */
+
+.resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.loading {
+    font-size: 1.5em;
+    color: #3498db;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error {
+    font-size: 1.5em;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.no-resources {
+    font-size: 1.5em;
+    color: #95a5a6;
+    text-align: center;
+    margin-top: 50px;
+}
