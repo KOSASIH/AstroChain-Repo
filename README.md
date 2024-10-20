@@ -35,3 +35,47 @@ To get started with AstroChain, follow these steps:
    1. git clone https://github.com/KOSASIH/AstroChain-Repo.git
    ```
 
+2. Navigate to the project directory:
+
+```bash
+1. cd AstroChain-Repo
+```
+
+3. Install dependencies:
+
+```bash
+1. yarn install
+```
+
+4. Compile smart contracts:
+
+```bash
+1. yarn compile
+```
+
+5. Start the application:
+
+```bash
+1. yarn start
+```
+
+# Project Structure
+
+The project is organized into the following directories:
+
+1. **contracts:** Smart contracts written in Solidity
+2. **frontend:** Web application built using React and Web3.js
+3. **scripts:** Deployment and testing scripts
+4. **tests:** Unit and integration tests for smart contracts and frontend
+
+# Smart Contracts
+
+The smart contracts are written in Solidity and are responsible for managing the asteroid mining operations. The # 
+
+# contracts include:
+
+1. **AsteroidToken.sol:** Token contract for asteroid resources
+2. **MiningContract.sol:** Contract for managing mining operations
+3. **DistributionContract.sol:** Contract for distributing resources among stakeholders
+
+#
