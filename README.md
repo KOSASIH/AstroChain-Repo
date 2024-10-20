@@ -78,4 +78,68 @@ The smart contracts are written in Solidity and are responsible for managing the
 2. **MiningContract.sol:** Contract for managing mining operations
 3. **DistributionContract.sol:** Contract for distributing resources among stakeholders
 
-#
+# Frontend
+
+The frontend is built using React and Web3.js, providing a user-friendly interface for interacting with the smart contracts. The frontend is organized into the following components:
+
+1. **App.js:** Main application component
+2. **Mining.js:** Component for managing mining operations
+3. **Distribution.js:** Component for distributing resources among stakeholders
+
+# Testing
+
+Testing is an essential part of the development process. The project uses Hardhat for testing smart contracts and Jest for testing the frontend.
+
+1. Running Tests
+
+To run all tests:
+
+```bash
+1. yarn test
+```
+
+2. To run unit tests for smart contracts:
+
+```bash
+1. yarn test:unit
+```
+
+3. To run integration tests for smart contracts and frontend:
+
+```bash
+1. yarn test:integration
+```
+
+# Deployment
+
+The project is deployed using Hardhat's deployment scripts.
+
+1. Deploying to Testnet
+
+To deploy the smart contracts to the testnet:
+
+```bash
+1. yarn deploy:testnet
+```
+
+2. Deploying to Mainnet
+
+To deploy the smart contracts to the mainnet:
+
+```bash
+1. yarn deploy:mainnet
+```
+
+# Contributing
+
+Contributions are welcome! If you'd like to contribute to AstroChain, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature or fix
+3. Make your changes and commit them
+4. Create a pull request
+
+# License
+
+AstroChain is licensed under the Apache 2.0 License. See LICENSE for details.
+
